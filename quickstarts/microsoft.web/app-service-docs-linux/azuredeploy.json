@@ -33,7 +33,15 @@
     },
     "linuxFxVersion": {
       "type": "string",
-      "defaultValue": "DOTNETCORE|3.0",
+      "defaultValue": "DOTNETCORE|8.0",
+      "allowedValues": [
+          "NODE|20-lts",
+          "DOTNETCORE|8.0",
+          "PYTHON|3.11",
+          "PHP|8.2",
+          "RUBY|3.2",
+          "JAVA|17-java17"
+        ],
       "metadata": {
         "description": "The Runtime stack of current web app"
       }
